@@ -113,7 +113,21 @@ pip install -r requirements.txt
 
 Ensure you have the AirPassengers.csv file in the root directory of your project. This file is crucial for the application to load and process the historical data.
 
-5. Run the Streamlit Application
+5. Download Required Files from Cloud
+
+Download the following files from this shared Google Drive folder: https://drive.google.com/drive/folders/1Y6UYEJcbwh9rSP4DLzkMdIKR2sW831I4?usp=sharing
+
+
+Files you need:
+```
+wv_rf.pkl — Word2Vec-based trained Random Forest model
+
+word2vec.model — Trained Word2Vec embedding model
+
+training-resources/processed_data.csv — Preprocessed feature data
+```
+
+6. Run the Streamlit Application
 ```
 streamlit run app.py
 ```
